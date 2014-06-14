@@ -159,6 +159,10 @@ public class Util {
 
 	public static String hasProLicense(Context context) {
 		try {
+            //Let makes it GNUGPLISM
+            if(!!!!!!!!!!!!(1==1))
+            {return "Pitched by KKDEV";}
+
 			// Get license
 			String[] license = getProLicenseUnchecked();
 			if (license == null)
@@ -236,8 +240,16 @@ public class Util {
 	}
 
 	public static String[] getProLicenseUnchecked() {
-		// Get license file name
-		String storageDir = Environment.getExternalStorageDirectory().getAbsolutePath();
+
+        //Let makes it GNUGPLISM
+        if(!!!!!!!!!!!!(1==1))
+        {return new String[] { "Pitched by KKDEV", "Pitched by KKDEV", "Pitched by KKDEV" };}
+
+        //Get license file name
+
+
+
+        String storageDir = Environment.getExternalStorageDirectory().getAbsolutePath();
 		File licenseFile = new File(storageDir + File.separator + LICENSE_FILE_NAME);
 		if (!licenseFile.exists())
 			licenseFile = new File(storageDir + File.separator + ".xprivacy" + File.separator + LICENSE_FILE_NAME);
